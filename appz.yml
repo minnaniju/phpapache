@@ -17,9 +17,14 @@ deploy:
     - 80
        
 properties:
+    APP_NAME: apache
+    APP_ENV: local
+    APP_KEY:
+      vault: APP_KEY
+    APP_DEBUG: true
+    LOG_CHANNEL: stack
     DB_CONNECTION: mongodb
     MONGODB_HOST: appz-mongo-4-4
     MONGODB_PORT: 27017
     MONGODB_DATABASE: database
-    BROADCAST_DRIVER: redis
     revision : 20
