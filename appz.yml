@@ -27,4 +27,4 @@ properties:
     MONGODB_HOST: appz-mongo-4-4
     MONGODB_PORT: 27017
     MONGODB_DATABASE: database
-    revision : 20
+    revision : 21
